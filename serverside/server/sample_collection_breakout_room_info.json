@@ -1,0 +1,45 @@
+[{
+		"name": "Breakout Room 1 - Java/Cloud",
+		"teams": [{
+				"name": "Java",
+				"interviewers": [{
+					"w3id": "jamie.scott.richardson@ibm.com",
+					"name": "Jamie Richardson"
+				}, {
+					"w3id": "jeffreys@us.ibm.com",
+					"name": "Jeffery Smith"
+				}]
+			},
+			{
+				"name": "Cloud",
+				"interviewers": [{
+						"w3id": "jeffreys@us.ibm.com",
+						"name": "Jeffery Smith"
+					},
+					{
+						"w3id": "sgrayso@us.ibm.com",
+						"name": "Sonyetta Anderson"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Breakout Room 2 - Microsoft/Workday"
+	},
+	{
+		"name": "Breakout Room 3 - Oracle/SAP"
+	},
+	{
+		"name": "Breakout Room 4 - .NET/Cloud"
+	},
+	{
+		"name": "Breakout Room 5 - Agile/Project Management"
+	},
+	{
+		"name": "Breakout Room 6 - UI Development/React/Angular"
+	},
+	{
+		"name": "Breakout Room 7 - Business/System Analysis"
+	}
+]

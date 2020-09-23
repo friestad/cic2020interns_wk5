@@ -1,0 +1,23 @@
+{
+  "name": "queuemanager",
+  "version": "1.0.0",
+  "description": "queue manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/jfriestad/cic2020interns_wk5"
+  },
+  "author": "Justin Friestad",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "request": "^2.88.2",
+    "sequelize": "^6.3.3"
+  }
+}

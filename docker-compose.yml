@@ -1,0 +1,35 @@
+version: '3'
+
+services: 
+
+    #################################
+    #Set up node container
+    ################################
+
+    server:
+        build: ./serverside/server
+        
+        ports:
+            - 3000:3000
+        
+       
+
+    ##############################
+    #Set up client container
+    #############################
+    client:
+        build: 
+            context: ./queuemanager
+            dockerfile: Dockerfile
+        
+        ports:
+            - 8080:8080
+
+        volumes:
+            - './queuemanager:/srv/app/queuemanager'
+            - '/srv/app/queuemanager/node_modules'
+        
+        links: 
+            - server
+        restart: on-failure
+        

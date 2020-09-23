@@ -1,0 +1,19 @@
+{
+	"name": "Jordan Myles",
+	"jrss": "Java Full Stack",
+	"tags": [
+		"Oracle",
+		"Node",
+		"Sprint Boot"
+	],
+	"notes": "5 years of experience",
+	"links": [{
+			"name": "Github",
+			"url": "github.com/jomyles"
+		},
+		{
+			"name": "Resume",
+			"url": "https://ibm.box.com/s/1jordeuafclarcx38myv0ken3jiry"
+		}
+	]
+}
